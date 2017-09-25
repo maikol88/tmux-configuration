@@ -1,6 +1,7 @@
 # Shortcuts for tmux
 
 alias treload="tmux source-file ~/.tmux.conf"
+alias tsource="tmux source-file ~/.tmux.conf"
 alias tinfo="tmux list-keys"
 alias tstart='tmux new -s mysession -n default'
 alias twindow='tmux new-window'
@@ -12,4 +13,6 @@ alias trenamewindow='tmux rename-window'
 alias trenamesession='tmux rename-session'
 alias tkillpane='tmux kill-pane'
 alias tkillwindow='tmux kill-window'
-
+alias tnext='tmux next-window'
+alias tlast='tmux last-window'              
+      
